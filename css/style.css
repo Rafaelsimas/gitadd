@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font);
+}
+
+html{
+    font-size: 16px;
+    height: 100%;
+}
+
+.screen-hidden{
+    display: none;
+}
+
+:root{
+    --bg-navBar-color:#41A7BD;
+    --bg-areat-text:#CFD6D9;
+    --font: 'Poppins', sans-serif;
+    --btn-button: #215F7A;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar img {
+    width: 9.8rem;
+}
+
+.navbar{
+    background: var(--bg-navBar-color);
+    width: 20%;
+    height: 100vh;
+}
+.registration{
+    height: 100vh;
+    width: 80%;
+    background: var(--bg-areat-text);
+}
+
+
+.enterprises{
+    width: 90%;
+    margin-inline: auto;
+}
+
+.enterprises li{
+    width: 90%;
+   background: rgba(255, 255, 255, 0.322);
+   margin-bottom: 15px;
+   padding: 0.5rem;
+   border-radius: 3px;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   font-weight: normal;
+}
+
+ion-icon{
+    color: white;
+}
+
+
+.box-registration{
+    height: 100vh;
+    width: 78%;
+    position: relative;
+}
+
+.box-registration .sub-box {
+    position: absolute;
+    width: 100%;
+    top: 163px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.box-registration .sub-box input{
+  margin-bottom: 25px;
+  padding: 1.1rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.box-registration .sub-box button{
+    border: none;
+    border-radius: 3px;
+  margin-bottom: 25px;
+  padding: 1.1rem;
+  background: var(--btn-button);
+  color: white;
+  font-weight: bold;
+}
+
+.area-resume{
+    height: 100vh;
+    width: 80%;
+    background: var(--bg-areat-text);
+}
+
+.box-resume{
+    height: 100vh;
+    width: 78%;
+    position: relative;
+}
+
+.box-resume .sub-box-resume {
+    position: absolute;
+    width: 100%;
+    top: 163px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    text-align: left;
+}
+
+.box-resume .sub-box-resume > .mark{
+    background: grey;
+    margin-bottom: 30px;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+
+.resume{
+    width: 100%;
+    position: relative;
+}
+
+.plus {
+    position: absolute;
+    top: 41px;
+    right: 44px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.plus strong{
+    font-size: 9rem;
+
+    color: rgb(184, 184, 184);
+    height: 1.5rem;
+
+}
